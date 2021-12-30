@@ -1,34 +1,49 @@
 import { useState } from 'react';
+import Board from './Board';
 import Button from './Button';
-import Dice from './Dice';
 
 function Random(n){
   return Math.ceil(Math.random() * n);
 }
 
 function App() {
-  const [num, setNum] = useState(1);
+
+  
+  const [History, setHistory] = useState([]);
+
+  
+  const [otherHistory, setOtherHistory] = useState([]);
 
   const handleRollClick = () => {
     const nextNum = Random(6);
-    setNum(nextNum);
-    console.log(nextNum);
+    
+    setHistory([...History, nextNum]);
+
+    const nextOtherNum = Random(6);
+    
+    setOtherHistory([...otherHistory, nextOtherNum]);
+    
   };
 
   const handleClearClick = () => {
-    setNum(1);
+    
+    setHistory([]);
+
+    
+    setOtherHistory([]);
     console.log('처음부터');
   };
 
-  return (
+  return(
     <>
-      <div>
+    <div>
         <Button onClick={handleRollClick}>던지기</Button>
         <Button onClick={handleClearClick}>처음부터</Button>
       </div>
-      <Dice color="blue" num={num} />
+    <Board name="Player 1" color = "blue" History={History}/>
+    <Board name="Player 2" color = "red" History={otherHistory}/>
     </>
-  );
+  )
 }
 
 export default App;
