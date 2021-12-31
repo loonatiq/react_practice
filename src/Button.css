@@ -1,0 +1,28 @@
+:root {
+  ---line-color-1: #646464;
+  ---line-color-2: #e9e9e9;
+  ---background-color-1: #f1f1f1da;
+  ---background-color-2: #5e5d5d96;
+}
+
+.Button {
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  padding: 20px;
+  font-size: large;
+  font-weight: bold;
+}
+
+.Button.Roll {
+  background-color: var(---background-color-1);
+  color: var(---line-color-1);
+  border: solid 2px var(---line-color-1);
+  padding: 20px 30px;
+}
+
+.Button.Reset {
+  background-color: var(---background-color-2);
+  color: var(---line-color-2);
+  border: solid 2px var(---line-color-2);
+}

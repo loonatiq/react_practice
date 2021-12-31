@@ -1,0 +1,27 @@
+.Title {
+  color: #fafafa;
+  text-align: center;
+  font-size: 100px;
+  font-weight: bold;
+  margin-top: 2%;
+}
+
+.Boards {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.Buttons {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.Buttons .Roll {
+  margin: 10px;
+}
+
+.Buttons .Reset {
+  margin: 10px;
+}
