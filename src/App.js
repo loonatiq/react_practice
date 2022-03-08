@@ -8,29 +8,19 @@ function Random(n){
 }
 
 function App() {
-
   
   const [History, setHistory] = useState([]);
-
-  
   const [otherHistory, setOtherHistory] = useState([]);
 
   const handleRollClick = () => {
     const nextNum = Random(6);
-    
     setHistory([...History, nextNum]);
-
     const nextOtherNum = Random(6);
-    
-    setOtherHistory([...otherHistory, nextOtherNum]);
-    
+    setOtherHistory([...otherHistory, nextOtherNum]);    
   };
 
   const handleClearClick = () => {
-    
     setHistory([]);
-
-    
     setOtherHistory([]);
     console.log('처음부터');
   };

@@ -3,4 +3,6 @@ body {
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center center;
+  height: 100vh;
+  margin: 0;
 }
