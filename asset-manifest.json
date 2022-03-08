@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react_practice_dicegame/static/css/main.27cc4037.css",
+    "main.css": "/react_practice_dicegame/static/css/main.510d4ddf.css",
     "main.js": "/react_practice_dicegame/static/js/main.6b03802f.js",
     "static/media/dice-backgrond.jpg": "/react_practice_dicegame/static/media/dice-backgrond.4d59251b22c293c8e790.jpg",
     "static/media/dice-blue-6.svg": "/react_practice_dicegame/static/media/dice-blue-6.85b4d41e50e02a9871ee83122ea18f57.svg",
@@ -16,11 +16,11 @@
     "static/media/dice-blue-1.svg": "/react_practice_dicegame/static/media/dice-blue-1.46ea1848f55d80a1686590bb76593ce0.svg",
     "static/media/dice-red-1.svg": "/react_practice_dicegame/static/media/dice-red-1.a9a39d36fe2cb6671ddaca9f404b608d.svg",
     "index.html": "/react_practice_dicegame/index.html",
-    "main.27cc4037.css.map": "/react_practice_dicegame/static/css/main.27cc4037.css.map",
+    "main.510d4ddf.css.map": "/react_practice_dicegame/static/css/main.510d4ddf.css.map",
     "main.6b03802f.js.map": "/react_practice_dicegame/static/js/main.6b03802f.js.map"
   },
   "entrypoints": [
-    "static/css/main.27cc4037.css",
+    "static/css/main.510d4ddf.css",
     "static/js/main.6b03802f.js"
   ]
 }
